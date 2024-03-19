@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  font-family: 'Work-Sans', sans-serif;
+}
+
+.container{
+  height: 100vh;
+}
+.whole{
+  position: absolute;
+  top: 40vh;
+  left:0;
+  overflow: hidden;
+  width: 99vw;
+  height: 80vh;
+  background: hsl(275, 100%, 97%);
+}
+
+.top{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 40vh;
+  width: 100%;
+  background-image: url('./assets/images/background-pattern-desktop.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}

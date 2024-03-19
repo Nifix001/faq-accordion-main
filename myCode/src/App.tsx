@@ -4,11 +4,11 @@ import { Card, Accordion, Container, Row, Col } from "react-bootstrap"
 function App() {
 
   return (
-    <>
-       <div> 
-    <div className=''>
-      <Container>
-      <Row>
+  <div className="container">
+      <div className="top"></div>
+      <div className='whole'>
+        <Container fluid className="d-flex justify-content-center align-items-center">
+        <Row className="v-100">
         <Col>
           <Card>      
             <Card.Header>FAQs</Card.Header>
@@ -68,7 +68,6 @@ function App() {
     </Container>
     </div> 
     </div>
-    </>
   )
 }
 
