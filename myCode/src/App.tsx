@@ -7,10 +7,10 @@ function App() {
   <div className="container">
       <div className="top"></div>
       <div className='whole'>
-        <Container fluid className="d-flex justify-content-center align-items-center">
-        <Row className="v-100">
+        <Container fluid className="d-flex justify-content-center align-items-center gx-5 gy-5">
+        <Row>
         <Col>
-          <Card>      
+          <Card className='p-2'>      
             <Card.Header>FAQs</Card.Header>
               <Accordion defaultActiveKey="0">
               <Accordion.Item eventKey="0">
