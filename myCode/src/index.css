@@ -24,4 +24,13 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
+  z-index: -1;
+}
+
+.content{
+  width: 40vw;
+  border-radius: 20px;
+  position: absolute;
+  top: 30%;
+  left: 30%;
 }
