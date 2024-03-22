@@ -24,7 +24,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
-  z-index: -1;
 }
 
 .content{
@@ -34,3 +33,4 @@
   top: 30%;
   left: 30%;
 }
+
