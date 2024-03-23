@@ -34,3 +34,29 @@
   left: 30%;
 }
 
+.star{
+  margin-right: 15px;
+  margin-bottom: 5px ;
+}
+
+.plus{
+  position:absolute;
+  right: 0;
+}
+
+.accordion-header{
+  border: none !important;
+  outline: none !important;
+}
+
+.accordion-button.collapsed::after{
+  display: none !important;
+}
+.accordion-button:not(collapsed)::after{
+  display: none !important;
+}
+
+.accordion-item{
+  border: none !important;
+  outline: none !important;
+}
