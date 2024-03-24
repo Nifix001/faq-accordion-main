@@ -44,9 +44,24 @@
   right: 0;
 }
 
-.accordion-header{
+.header{
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.accordion-item span{
   border: none !important;
   outline: none !important;
+  font-size: 20px !important; 
+  font-weight: 400;
+}
+
+.accordion-header:not(.collapsed){
+  background-color: white !important;
+}
+
+.accordion-item span:hover{
+  color: #ad28eb;
 }
 
 .accordion-button.collapsed::after{
@@ -56,7 +71,35 @@
   display: none !important;
 }
 
+
 .accordion-item{
   border: none !important;
   outline: none !important;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+@media(max-width:575px) {
+  .top{
+    height: 30vh;
+    background-image: url('./assets/images/background-pattern-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+  }
+
+  .whole{
+    position: absolute;
+    top: 30vh;
+    overflow: hidden;
+    width: 100%;
+    height: 80vh;
+    background: hsl(275, 100%, 97%);
+  }
+
+  .content{
+    width: 90vw !important;
+    border-radius: 20px;
+    left: 5%;
+  }
 }
