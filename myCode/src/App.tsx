@@ -1,6 +1,5 @@
 import { useState } from "react";
-import { Card, Accordion, Container, Row, Col, Button } from "react-bootstrap"
-
+import { Card, Accordion, Container, Row, Col, Button } from "react-bootstrap";
 
 function App() {
   const [openAccordion, setOpenAccordion] = useState<string | null>('0');
